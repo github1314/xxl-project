@@ -14,19 +14,79 @@
     <link rel="stylesheet" href="../../../statics/css/publicStyle/headerStyle.css">
     <link rel="stylesheet" href="../../../statics/css/publicStyle/wrapperStyleSmall.css">
     <link rel="stylesheet" href="../../../statics/css/publicStyle/footerStyle.css">
+    <link rel="stylesheet" href="../../../statics/css/workMsg/index.css">
     <script src="../../../statics/plugins/jquery-1.8.2.min.js"></script>
     <script src="../../../statics/js/publicJs/rem.js"></script>
+    <script src="../../../statics/js/publicJs/jsFn.js"></script>
 </head>
 <body>
 <div class="header">
     <span>工作消息</span>
+    <i class="iconfont icon-add iconWorkMsg"></i>
 </div>
 <div id="wrapper">
     <div>
         <!--内容区-->
-
-
-
+        <div class="searchBox">
+            <div class="searchInput">
+                <i class="iconfont icon-search"></i>
+                <input type="text" name="" value="" placeholder="搜索">
+            </div>
+        </div>
+        <div class="ulBox">
+            <ul>
+                <li>
+                    <div class="ulchild">
+                        <div class="ulLeft" style="background:#3dd187;">
+                            <i class="iconfont icon-news-o"></i>
+                        </div>
+                    </div>
+                    <div class="ulRight">
+                        <div class="divFirst">
+                            <div>
+                                订单消息
+                            </div>
+                            <div>
+                                下午 03:19
+                            </div>
+                        </div>
+                        <div class="divSecond">
+                            <div>
+                                张三丰提交了一笔新订单，请审批
+                            </div>
+                            <div>
+                                <i class="iconfont icon-silentlingsheng"></i>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="ulchild">
+                        <div class="ulLeft" style="background:#9894fd;">
+                            <i class="iconfont icon-attendance-o"></i>
+                        </div>
+                    </div>
+                    <div class="ulRight">
+                        <div class="divFirst">
+                            <div>
+                                工作任务
+                            </div>
+                            <div>
+                                3月31日下午 2:12
+                            </div>
+                        </div>
+                        <div class="divSecond">
+                            <div>
+                                张三丰完成了您制定的任务【开会】
+                            </div>
+                            <div>
+                                <i class="iconfont icon-silentlingsheng"></i>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
         <!--内容区-->
     </div>
 </div>
@@ -52,11 +112,12 @@
 <script>
     $(function () {
 
+
         $("#workBench").on('click',function () {
-            window.location.href = '../../../index.html';
+            window.location.href = '../workBench/index.html';
         });
         $("#workMsg").on('click',function () {
-            window.location.href = '../workMsg/index.html';
+            // window.location.href = '../workMsg/index.html';
         });
         $("#workSurface").on('click',function () {
             window.location.href = '../workSurface/index.html';
@@ -74,14 +135,7 @@
             'padding-top':$rh+'rem'
         });
 
-        $('.footer').on('click','div',function () {
-            $(this).css({
-                'color':'#FF4402'
-            });
-            $(this).siblings().css({
-                'color':'#000'
-            })
-        });
+
 
     });
 </script>

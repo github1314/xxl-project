@@ -1,0 +1,64 @@
+img{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    position: absolute;
+    left: calc((100% - 3.5rem )/2);
+    top: 24%;
+}
+body{
+    background: #fff;
+}
+.register_name,.register_pass{
+    width: 60%;
+    padding-left: 0.877rem;
+    line-height: 1.877rem;
+    border-bottom: 1px solid #e5e5e5;
+
+}
+
+.register_name{
+    position: absolute;
+    left:20%;
+    top: 24%;
+}
+.register_pass{
+    position: absolute;
+    left:20%;
+    top: 48%;
+}
+input{
+    border: none;
+    outline: none;
+    font-size: 0.5rem;
+}
+.register_tel .iconfont{
+    color: #c0c0c0;
+    position: absolute;
+    left: 0rem;
+    font-size: 1rem;
+    line-height: 1.8rem;
+}
+#signin>a{
+    width: 60%;
+    height: 1.877rem;
+    line-height: 1.877rem;
+    background: #3d9ef5;
+    position: absolute;
+    left:20%;
+    top: 59%;
+    color: #fff;
+    text-align: center;
+    font-size: 0.6rem;
+    border-radius: 3rem;
+}
+.pass{
+    width: 100%;
+    position: absolute;
+    right: 25%;
+    top: 68%;
+    text-align: right;
+    font-size: 0.412rem;
+    color: #ccc;
+}

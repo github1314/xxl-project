@@ -1,0 +1,81 @@
+#wrapper>div{
+    padding: 0 1.045rem 0 1.088rem;
+}
+body{
+    background: #fff !important;
+}
+#wrapper>div>div{
+    margin-top: 0.5rem;
+    height: 1.877rem;
+    width: 100%;
+    position: relative;
+    border-bottom: 1px solid #8f8f8f;
+}
+#wrapper>div>div input{
+    border: none;
+    outline: none;
+    font-size: 0.5rem;
+}
+.register_tel{
+    padding-left: 1.667rem;
+    line-height: 1.6rem;
+}
+.register_tel .iconfont{
+    color: #c0c0c0;
+    position: absolute;
+    left: 0;
+    font-size: 1rem;
+    line-height: 1.8rem;
+
+    /*top: 0;*/
+}
+.register_code{
+    position: relative;
+    line-height: 1.7rem;
+}
+.register_code>a {
+    display: block;
+    position: absolute;
+    width: 3.307rem;
+    height: 1.301rem;
+    line-height: 1.301rem;
+    text-align: center;
+    background-color: #3d9ef5;
+    font-size: 0.512rem;
+    color: #ffffff;
+    right: 0;
+    top: calc((100% - 1.301rem )/2);
+    border-radius: 0.2rem;
+}
+.register_password{
+    line-height: 1.7rem;
+}
+.register_qr_password{
+    line-height: 1.7rem;
+}
+.register_xy{
+    font-size: 0.469rem;
+    color: #484848;
+    border: none !important;
+    padding-top: 0.5rem;
+}
+.register_xy .iconfont{
+    font-size: 0.6rem;
+}
+.register_xy>a{
+    font-size: 0.469rem;
+    color: #118efd;
+}
+.register_ok{
+    border: none !important;
+}
+.register_ok>a{
+    display: block;
+    height: 1.643rem;
+    line-height: 1.643rem;
+    background-color: #3d9ef5;
+    border-radius: 0.736rem;
+    font-size: 0.597rem;
+    color: #fff;
+    text-align: center;
+}

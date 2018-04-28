@@ -8,180 +8,62 @@
     <meta name="format-detection" content="telephone=no, email=no"/>
     <meta name="apple-mobile-web-app-capable" content="yes"/>
     <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
-    <title>工作台</title>
+    <title>登录</title>
     <link rel="stylesheet" href="statics/css/publicStyle/base.css">
     <link rel="stylesheet" href="statics/font/iconfont.css">
     <link rel="stylesheet" href="statics/css/publicStyle/headerStyle.css">
-    <link rel="stylesheet" href="statics/css/publicStyle/wrapperStyleSmall.css">
+    <link rel="stylesheet" href="statics/css/publicStyle/wrapperStyleLarge.css">
     <link rel="stylesheet" href="statics/css/publicStyle/footerStyle.css">
-    <link rel="stylesheet" href="statics/css/index.css">
+    <link rel="stylesheet" href="statics/css/signIn.css">
     <script src="statics/plugins/jquery-1.8.2.min.js"></script>
     <script src="statics/js/publicJs/rem.js"></script>
     <script src="statics/js/publicJs/jsFn.js"></script>
-    <style>
-
-    </style>
 </head>
 <body>
-<div class="header">
-    <span>工作台</span>
+<img src="statics/images/users/touxiang.jpg" alt="">
+
+<div class="register_name" style="margin-top: 26%">
+    <i class="iconfont icon-shouji1"></i>
+    <input id="tel" type="text" placeholder="请输入手机号" value="">
 </div>
-<div id="wrapper">
-    <div>
-
-        <div class="h_box">
-            <span>日常办公</span>
-            <a href="#">查看更多</a>
-        </div>
-        <ul class="clearFix">
-            <li class="bt">
-                <img src="statics/images/index/WechatIMG95_03.png" alt="">
-                <p>新手入门</p>
-            </li>
-            <li class="bt">
-                <img src="statics/images/index/WechatIMG95_05.png" alt="">
-                <p>考勤打卡</p>
-            </li>
-            <li class="bt">
-                <img src="statics/images/index/WechatIMG95_07.png" alt="">
-                <p>通知公告</p>
-            </li>
-            <li class="bt rtn">
-                <img src="statics/images/index/WechatIMG95_15.png" alt="">
-                <p>日志分享</p>
-            </li>
-            <li>
-                <img src="statics/images/index/WechatIMG95_16.png" alt="">
-                <p>申请审批</p>
-            </li>
-            <li>
-                <img src="statics/images/index/WechatIMG95_17.png" alt="">
-                <p>通讯录</p>
-            </li>
-        </ul>
-        <div class="h_box">
-            <span>客户管理</span>
-            <a href="#">查看更多</a>
-        </div>
-        <ul class="clearFix">
-            <li>
-                <img src="statics/images/index/WechatIMG95_21.png" alt="">
-                <p>客户管理</p>
-            </li>
-            <li>
-                <img src="statics/images/index/WechatIMG95_22.png" alt="">
-                <p>客户拜访</p>
-            </li>
-            <li>
-                <img src="statics/images/index/WechatIMG95_23.png" alt="">
-                <p>客户库存</p>
-            </li>
-        </ul>
-        <div class="h_box">
-            <span>进销存</span>
-            <a href="#">查看更多</a>
-        </div>
-        <ul class="clearFix">
-            <li class="bt">
-                <img src="statics/images/index/WechatIMG95_27.png" alt="">
-                <p>业务抄单</p>
-            </li>
-            <li class="bt">
-                <img src="statics/images/index/WechatIMG95_28.png" alt="">
-                <p>订单管理</p>
-            </li>
-            <li class="bt">
-                <img src="statics/images/index/WechatIMG95_29.png" alt="">
-                <p>销售退单</p>
-            </li>
-            <li class="bt rtn">
-                <img src="statics/images/index/WechatIMG95_30.png" alt="">
-                <p>收款登记</p>
-            </li>
-            <li>
-                <img src="statics/images/index/WechatIMG95_35.png" alt="">
-                <p>商品入库</p>
-            </li>
-            <li>
-                <img src="statics/images/index/WechatIMG95_36.png" alt="">
-                <p>调拨单</p>
-            </li>
-            <li>
-                <img src="statics/images/index/WechatIMG95_37.png" alt="">
-                <p>库存盘点</p>
-            </li>
-            <li>
-                <img src="statics/images/index/WechatIMG95_38.png" alt="">
-                <p>库存查询</p>
-            </li>
-        </ul>
-        <div class="h_box">
-            <span>其他</span>
-            <a href="#">查看更多</a>
-        </div>
-        <ul class="clearFix">
-            <li>
-                <img src="statics/images/index/WechatIMG94_03.png" alt="">
-                <p>商品信息</p>
-            </li>
-            <li>
-                <img src="statics/images/index/WechatIMG94_05.png" alt="">
-                <p>我的商铺</p>
-            </li>
-            <li>
-                <img src="statics/images/index/WechatIMG94_07.png" alt="">
-                <p>更多</p>
-            </li>
-        </ul>
-
-
-
-    </div>
+<div class="register_pass">
+    <i class="iconfont icon-mima"></i>
+    <input id="pass" type="password" placeholder="请输入密码" value="">
 </div>
-<div class="footer">
-    <div id="workBench" style="color: #FF4402;">
-        <i class="iconfont icon-agent"></i>
-        <p>工作台</p>
-    </div>
-    <div id="workMsg">
-        <i class="iconfont icon-xiaoxi"></i>
-        <p>消息</p>
-    </div>
-    <div id="workSurface">
-        <i class="iconfont icon-baobiao"></i>
-        <p>报表</p>
-    </div>
-    <div id="users">
-        <i class="iconfont icon-myorder"></i>
-        <p>我的</p>
-    </div>
+<div id="signin">
+    <a href="#">登录</a>
+</div>
+<div class="pass">
+    <a href="#" style="margin-right: 0.5rem;">忘记密码</a>
+    <a href="#" id="register">注册账号</a>
 </div>
 </body>
 <script>
+    $(function () {
 
-    //loading 效果
 
 
-    //页脚点击
-    $("#workMsg").on('click', function () {
-        window.location.href = 'view/pages/workMsg/index.html';
+
+        $('#signin>a').on('click',function () {
+
+            //手机号
+            var $tel = $('#tel').val();
+            //密码
+            var $pass = $('#pass').val();
+
+            if($tel && $pass) {
+                window.location.href = 'view/pages/workBench/index.html';
+            }else {
+                myAlert('填写完整后在进行登录！')
+            }
+        });
+
+        $('#register').on('click',function () {
+             window.location.href = 'view/register/register.html';
+        });
+
+
+
     });
-    $("#workSurface").on('click', function () {
-        window.location.href = 'view/pages/workSurface/index.html';
-    });
-    $("#users").on('click', function () {
-        window.location.href = 'view/pages/users/index.html';
-    });
-
-    var $fh = $('.footer'), $fi = $('.footer>div>i'), $fp = $('.footer>div>p');
-    //页脚垂直居中
-    var $h = $fh.outerHeight() - $fi.outerHeight() - $fp.outerHeight();
-    var $f = $('html').css('font-size');
-    var $rh = $h / 2 / parseFloat($f);
-    $('.footer>div').css({
-        'padding-top': $rh + 'rem'
-    });
-
-
 </script>
 </html>

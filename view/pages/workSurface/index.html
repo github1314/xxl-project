@@ -24,7 +24,9 @@
 </div>
 <div id="wrapper">
     <div>
+        <!--内容区-->
 
+        <!--内容区-->
     </div>
 </div>
 <div class="footer">
@@ -52,7 +54,7 @@
         expect();
 
         $("#workBench").on('click',function () {
-            window.location.href = '../../../index.html';
+            window.location.href = '../workBench/index.html';
         });
         $("#workMsg").on('click',function () {
             window.location.href = '../workMsg/index.html';
@@ -73,14 +75,6 @@
             'padding-top':$rh+'rem'
         });
 
-        $('.footer').on('click','div',function () {
-            $(this).css({
-                'color':'#FF4402'
-            });
-            $(this).siblings().css({
-                'color':'#000'
-            })
-        });
 
     });
 </script>

@@ -1,0 +1,44 @@
+#wrapper>div{
+    padding: 1.28rem 1.28rem ;
+    height: 100%;
+}
+#wrapper{
+    overflow: hidden;
+}
+body{
+    background: #fff !important;
+}
+#wrapper>div>.box>p{
+    font-size: 0.512rem;
+    color: #222;
+}
+.box{
+    height: 77%;
+    overflow: auto;
+    background: #f8f8f8;
+    border-radius:10px ;
+}
+.register_xy{
+    font-size: 0.469rem;
+    color: #484848;
+    border: none !important;
+    text-align: right;
+    margin: 1.4rem 0;
+}
+.register_xy .iconfont{
+    font-size: 0.6rem;
+}
+.register_xy>a{
+    font-size: 0.469rem;
+    color: #118efd;
+}
+#wrapper>div>a{
+    display: block;
+    height: 1.643rem;
+    line-height: 1.643rem;
+    background-color: #3d9ef5;
+    border-radius: 0.736rem;
+    font-size: 0.597rem;
+    color: #fff;
+    text-align: center;
+}

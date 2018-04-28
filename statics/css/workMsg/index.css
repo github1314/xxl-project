@@ -1,0 +1,95 @@
+#wrapper {
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    background: #f4f4f4;
+}
+#wrapper .searchBox{
+    width: 100%;
+    height: 1.9rem;
+    background: #f4f4f4;
+    padding: 0.3rem 0.4rem;
+}
+#wrapper .searchInput{
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    border-radius: 0.3rem;
+    position: relative;
+}
+#wrapper .searchInput>i{
+    position: absolute;
+    left: 0.3rem;
+    top: 0.33rem;
+    font-weight: bolder;
+    font-size: 0.7rem;
+}
+#wrapper .searchInput>input{
+    position: absolute;
+    left: 1.7rem;
+    width: 88%;
+    height: 100%;
+    border: 0;
+    font-size: 0.512rem;
+}
+#wrapper .ulBox li{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    background: #fff;
+}
+#wrapper .ulBox li .ulchild{
+    flex: 1;
+    padding: 0.3rem 0.4rem;
+    height: 100%;
+}
+#wrapper .ulBox li .ulLeft{
+    text-align: center;
+    height: 100%;
+    line-height: 2.4rem;
+    color: #fff;
+    border-radius: 0.2rem;
+}
+#wrapper .ulBox li .ulLeft .iconfont{
+    font-size: 1.5rem;
+}
+#wrapper .ulBox li .ulRight{
+    flex: 5;
+    border-bottom: 1px #e4e4e4 solid;
+    color: #ccc;
+    padding: 0.2rem 0;
+}
+#wrapper .ulBox li .ulRight .divFirst{
+    display: flex;
+    height: 1.3rem;
+}
+#wrapper .ulBox li .ulRight .divFirst div:nth-child(1){
+    font-size: 0.7rem;
+    /*font-weight: bolder;*/
+    line-height:1.5rem;
+    color: #000;
+    flex: 1;
+}
+#wrapper .ulBox li .ulRight .divFirst div:nth-child(2){
+    font-size: 0.512rem;
+    text-align: right;
+    line-height:1.5rem;
+    padding-right: 0.3rem;
+    flex: 2;
+}
+#wrapper .ulBox li .ulRight .divSecond{
+    display: flex;
+    height: 1.1rem;
+}
+#wrapper .ulBox li .ulRight .divSecond div{
+    line-height:1.1rem;
+    padding-right: 0.3rem;
+    font-size: 0.512rem;
+}
+#wrapper .ulBox li .ulRight .divFirst div:nth-child(1){
+    flex: 3;
+}
+#wrapper .ulBox li .ulRight .divSecond div:nth-child(2){
+    text-align: right;
+    flex: 1;
+}
