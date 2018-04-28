@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="format-detection" content="telephone=no, email=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <title>工作消息</title>
+    <link rel="stylesheet" href="../../../statics/css/publicStyle/base.css">
+    <link rel="stylesheet" href="../../../statics/font/iconfont.css">
+    <link rel="stylesheet" href="../../../statics/css/publicStyle/headerStyle.css">
+    <link rel="stylesheet" href="../../../statics/css/publicStyle/wrapperStyleSmall.css">
+    <link rel="stylesheet" href="../../../statics/css/publicStyle/footerStyle.css">
+    <script src="../../../statics/plugins/jquery-1.8.2.min.js"></script>
+    <script src="../../../statics/js/publicJs/rem.js"></script>
+</head>
+<body>
+<div class="header">
+    <span>工作消息</span>
+</div>
+<div id="wrapper">
+    <div>
+        <!--内容区-->
+
+
+
+        <!--内容区-->
+    </div>
+</div>
+<div class="footer">
+    <div id="workBench">
+        <i class="iconfont icon-agent"></i>
+        <p>工作台</p>
+    </div>
+    <div style="color: #FF4402;" id="workMsg">
+        <i class="iconfont icon-xiaoxi"></i>
+        <p>消息</p>
+    </div>
+    <div id="workSurface">
+        <i class="iconfont icon-baobiao"></i>
+        <p>报表</p>
+    </div>
+    <div id="users">
+        <i class="iconfont icon-myorder"></i>
+        <p>我的</p>
+    </div>
+</div>
+</body>
+<script>
+    $(function () {
+
+        $("#workBench").on('click',function () {
+            window.location.href = '../../../index.html';
+        });
+        $("#workMsg").on('click',function () {
+            window.location.href = '../workMsg/index.html';
+        });
+        $("#workSurface").on('click',function () {
+            window.location.href = '../workSurface/index.html';
+        });
+        $("#users").on('click',function () {
+            window.location.href = '../users/index.html';
+        });
+
+        var $fh = $('.footer'),$fi = $('.footer>div>i'),$fp = $('.footer>div>p');
+        //页脚垂直居中
+        var $h = $fh.outerHeight()- $fi.outerHeight()-$fp.outerHeight();
+        var $f = $('html').css('font-size');
+        var $rh = $h/2/parseFloat($f);
+        $('.footer>div').css({
+            'padding-top':$rh+'rem'
+        });
+
+        $('.footer').on('click','div',function () {
+            $(this).css({
+                'color':'#FF4402'
+            });
+            $(this).siblings().css({
+                'color':'#000'
+            })
+        });
+
+    });
+</script>
+</html>

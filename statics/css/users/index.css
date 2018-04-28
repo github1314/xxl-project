@@ -1,0 +1,219 @@
+body{
+    background-color: #F5F5F5;
+}
+.header{
+    background: #f33;
+    color: #fff;
+    border: none;
+}
+.header span{
+    color: #fff;
+}
+.header > img{
+    width: 0.8rem;
+    height: 1rem;
+    position: absolute;
+    right: 1rem;
+    top: 0.5rem;
+}
+.user{
+    min-height: 10rem;
+    background: url("../../../statics/images/users/user_bac.png") no-repeat 0 0 #fff;
+    background-size:100% ;
+    padding: 1.387rem 0 0 0;
+}
+.user>div:nth-of-type(1){
+    width: 15rem;
+    /*height: 5rem;*/
+    background-color: #fefefe;
+    box-shadow: 1px 3px 6px 0 rgba(0, 0, 0, 0.11);
+    border-radius: 0.213rem;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 2.651rem;
+    padding-bottom: 0.832rem;
+}
+.headPortrait{
+    width: 3.243rem;
+    height: 3.243rem;
+    background-color: #ffffff;
+    margin:0 auto 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: -1.1rem;
+    left: calc((15rem - 3.242rem)/2);
+}
+.headPortrait>img{
+    width: 100%;
+    height: 100%;
+}
+.user_detail{
+
+}
+.user_detail>p{
+    text-align: center;
+}
+
+.user_detail>p:nth-of-type(1){
+    font-size: 0.74rem;
+    font-weight: bolder;
+    color: #333;
+}
+.user_detail>p:nth-of-type(2){
+    font-size: 0.55rem;
+    margin-top: 0.8rem;
+    color: #666;
+}
+.user>div:nth-of-type(2){
+    display: flex;
+    padding: 0.875rem 0.619rem;
+}
+.user>div:nth-of-type(2)>div{
+    width: calc(100%/3);
+    text-align: center;
+}
+.user>div:nth-of-type(2)>div>img{
+    height: 0.981rem;
+}
+.user>div:nth-of-type(2)>div>p{
+    text-align: center;
+    font-size: 0.512rem;
+    color: #333;
+}
+.banner{
+    display: flex;
+    padding: 0.3rem 0 0.3rem 0.96rem;
+    background: #fff;
+    margin-top: 0.427rem;
+    position: relative;
+}
+.banner>div:nth-of-type(1){
+    width: 2.132rem;
+    height: 2.132rem;
+}.banner>div:nth-of-type(1)>img{
+     width:100%;
+ }
+.banner>div:nth-of-type(2){
+    flex-grow: 1;
+    padding: 0.3rem;
+}
+.banner>div:nth-of-type(2)>p:nth-of-type(1){
+    font-size: 0.64rem;
+    color: #333;
+    font-weight: 500;
+}
+.banner>div:nth-of-type(2)>p:nth-of-type(2){
+    font-size: 0.512rem;
+    color: #f33;
+}
+.banner>i{
+    position: absolute;
+    right: 0.661rem;
+    top: 38%;
+}
+.banner .iconfont{
+    font-size: 0.7rem;
+}
+.menu{
+    background: #fff;
+    margin-top: 0.427rem;
+}
+.menu>div{
+    height: 1.877rem;
+    line-height: 1.877rem;
+    position: relative;
+}
+.menu>div{
+    font-size: 0.6rem;
+    color: #333;
+    padding-left: 1.771rem;
+}
+.menu>div>i:nth-of-type(1){
+
+}
+.menu>div>.iconfont:nth-of-type(1){
+    position: absolute;
+    left: 0.661rem;
+    font-size: 0.75rem;
+    color: #f33;
+}
+.menu>div>.iconfont:nth-of-type(2){
+    position: absolute;
+    right: 0.661rem;
+    font-size: 0.5rem;
+    color: #999;
+}
+
+.menu>div>a{
+    position: absolute;
+    right: 1.8rem;
+    font-size: 0.512rem;
+    color: #f33;
+}
+.model{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:rgba(0,0,0,.4);
+    width: 100%;
+    height: 100%;
+}
+.model>div{
+    width: 12.801rem;
+    height: 19.645rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.model>div>img:nth-of-type(1){
+    width: 100%;
+
+}
+.model>div>img:nth-of-type(2){
+    width: 1.131rem;
+    height: 1.109rem;
+    position: absolute;
+    bottom: 0;
+    left: calc((100% - 1.131rem)/2);
+}
+.model>div>div{
+    width: 6.443rem;
+    height: 1.536rem;
+    line-height: 1.536rem;
+    /*margin: 0 auto;*/
+    position: absolute;
+    top: 13rem;
+    left: calc((100% - 6.443rem)/2);
+    background: url("../../../statics/images/users/btn.png") no-repeat 0 0;
+    background-size: 100%;
+    text-align: center;
+    font-size: 0.64rem;
+    color: #993300;
+}
+#shareBox{
+    /*width: 16rem;*/
+    margin-top: 0.427rem;
+    height: 3.627rem;
+    background-color: #ffffff;
+    display: flex;
+}
+#shareBox>div{
+    flex-grow: 1;
+    text-align: center;
+}
+#shareBox>div>img{
+    width: 1.365rem;
+    height: 1.365rem;
+
+}
+#shareBox>div>p{
+    font-size: 0.512rem;
+    color: #333;
+}
+#wrapper{
+    overflow: auto;
+}

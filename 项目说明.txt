@@ -1,0 +1,41 @@
+admins.   后台代码
+statics.  静态资源
+View.     前端视图
+
+图标文件夹：font。 提供githup账号，给你拉入项目，里面都有我加入好的图标，要做到同步；
+
+前端视图：
+	页头、内容区域、页脚样式都已经写好了，只需要引入就行；
+
+	css分别是：
+		headerStyle.css		页头样式，每个页头必须引入，必须保持每个一样；
+		wrapperStyleSmall.css	带页脚页面的内容区样式，必须引入；
+		wrapperStyleLarge.css	不带页脚的内容区样式，一样必须引入；
+	      	footerStyle.css		页脚样式，有页脚的话，必须引入，保持每个页面的一样；
+
+	html格式：
+		页头：
+		<div class="header">			      //必须为header 的类名；
+			<i class="iconfont icon-agent"></i>   //有返回图标的引入I标签，加图标，font项目文件里面有类名；
+    			<span>个人中心</span>			
+		</div>
+
+		内容区：
+		<div id='wrapper>
+			<div>
+				//内容添加的地方，这样写的好处就是，以后添加iscroll插件方便；
+			</div>
+		</div>
+
+		页脚：
+		<div class='footer'>
+			//需要什么自己添加
+		</div>
+
+	文件位置：
+		workBench.	工作台文件夹；
+		workMsg.	工作信息文件夹；
+		workSurface.	工作报表文件夹；
+		users. 		个人中心文件夹；
+		
+		

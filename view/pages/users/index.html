@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="format-detection" content="telephone=no, email=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <title>个人中心</title>
+    <link rel="stylesheet" href="../../../statics/css/publicStyle/base.css">
+    <link rel="stylesheet" href="../../../statics/font/iconfont.css">
+    <link rel="stylesheet" href="../../../statics/css/publicStyle/headerStyle.css">
+    <link rel="stylesheet" href="../../../statics/css/publicStyle/wrapperStyleSmall.css">
+    <link rel="stylesheet" href="../../../statics/css/users/index.css">
+    <link rel="stylesheet" href="../../../statics/css/publicStyle/footerStyle.css">
+    <script src="../../../statics/plugins/jquery-1.8.2.min.js"></script>
+    <script src="../../../statics/js/publicJs/rem.js"></script>
+    <script src="../../../statics/js/publicJs/jsFn.js"></script>
+</head>
+<body>
+<div class="header">
+    <!--<i class="iconfont icon-agent"></i>-->
+    <span>个人中心</span>
+</div>
+<div id="wrapper">
+    <div style="z-index: 1000;">
+        <div class="user">
+            <div>
+                <div class="headPortrait">
+                    <img style="border: 2px solid #fff;" src="../../../statics/images/users/touxiang.png" alt="">
+                </div>
+                <div class="user_detail">
+                    <p>Supper</p>
+                    <p>13027580157</p>
+                </div>
+            </div>
+
+            <div>
+                <div id="taskPage">
+                    <img src="../../../statics/images/users/task.png" alt="">
+                    <p>意见反馈</p>
+                </div>
+                <div id="dhtx">
+                    <img src="../../../statics/images/users/shop.png" alt="">
+                    <p>联系我们</p>
+                </div>
+                <div id="invitation">
+                    <img src="../../../statics/images/users/invitation.png" alt="">
+                    <p>谢谢关照</p>
+                </div>
+            </div>
+        </div>
+        <div id="shareBox">
+            <div id="wx">
+                <img src="../../../statics/images/users/wx.png" alt="">
+                <p>微信邀请</p>
+            </div>
+            <div id="pyq">
+                <img src="../../../statics/images/users/pyq.png" alt="">
+                <p>朋友圈邀请</p>
+            </div>
+            <div id="qq">
+                <img src="../../../statics/images/users/qq.png" alt="">
+                <p>QQ邀请</p>
+            </div>
+            <div id="mdm">
+                <img src="../../../statics/images/users/erweima.png" alt="">
+                <p>面对面邀请</p>
+            </div>
+        </div>
+        <div class="menu">
+            <div id="edit_password">
+                <i class="iconfont icon-qunfengxiugaimima"></i>
+                <span>修改密码</span>
+                <i class="iconfont icon-youjiantou"></i>
+            </div>
+            <div id="xinxi" style="border-top:1px solid #e5e5e5;border-bottom: 1px solid #e5e5e5;">
+                <i class="iconfont icon-zhanghu1"></i>
+                <span>基础信息</span>
+                <i class="iconfont icon-youjiantou"></i>
+            </div>
+            <div id="renzheng" style="border-bottom: 1px solid #e5e5e5;">
+                <i class="iconfont icon-shimingrenzheng"></i>
+                <span>实名认证</span>
+                <i class="iconfont icon-youjiantou"></i>
+            </div>
+            <div id="edit_tel">
+                <i class="iconfont icon-shoujijiaofei"></i>
+                <span>修改手机号</span>
+                <i class="iconfont icon-youjiantou"></i>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="footer">
+    <div id="workBench">
+        <i class="iconfont icon-agent"></i>
+        <p>工作台</p>
+    </div>
+    <div id="workMsg">
+        <i class="iconfont icon-xiaoxi"></i>
+        <p>消息</p>
+    </div>
+    <div id="workSurface">
+        <i class="iconfont icon-baobiao"></i>
+        <p>报表</p>
+    </div>
+    <div style="color: #FF4402;" id="users">
+        <i class="iconfont icon-myorder"></i>
+        <p>我的</p>
+    </div>
+</div>
+</body>
+<script>
+    $(function () {
+
+        $("#workBench").on('click',function () {
+            window.location.href = '../../../index.html';
+        });
+        $("#workMsg").on('click',function () {
+            window.location.href = '../workMsg/index.html';
+        });
+        $("#workSurface").on('click',function () {
+            window.location.href = '../workSurface/index.html';
+        });
+        $("#users").on('click',function () {
+            window.location.href = '../users/index.html';
+        });
+
+        var $fh = $('.footer'),$fi = $('.footer>div>i'),$fp = $('.footer>div>p');
+        //页脚垂直居中
+        var $h = $fh.outerHeight()- $fi.outerHeight()-$fp.outerHeight();
+        var $f = $('html').css('font-size');
+        var $rh = $h/2/parseFloat($f);
+        $('.footer>div').css({
+            'padding-top':$rh+'rem'
+        });
+
+
+        //分享
+        $('#wx').on('click',function () {
+            myAlert('微信分享');
+        });
+        $('#qq').on('click',function () {
+            myAlert('QQ分享');
+        });
+        $('#pyq').on('click',function () {
+            myAlert('朋友圈分享');
+        });
+        $('#mdm').on('click',function () {
+            myAlert('面对面分享');
+        });
+
+        //menu
+        $('#edit_password').on('click',function () {
+            myAlert('修改密码');
+
+        });
+        $('#xinxi').on('click',function () {
+            myAlert('基础信息');
+
+        });
+        $('#renzheng').on('click',function () {
+            myAlert('实名认证');
+
+        });
+        $('#edit_tel').on('click',function () {
+            myAlert('修改手机号');
+
+        });
+
+        //分享居中
+        $('#shareBox').css({
+            'padding-top':($('#shareBox').outerHeight() - $('#wx>img').outerHeight() - $('#wx>p').outerHeight())/2,
+        });
+
+
+    });
+</script>
+</html>
