@@ -59,7 +59,7 @@
         //协议复选框
         $('#xy_btn').on('click', function () {
             if (!flag) {
-                $(this).removeClass().addClass('iconfont icon-duoxuanyixuan').css({'color': '#3d9ef5'});
+                $(this).removeClass().addClass('iconfont icon-duoxuanyixuan').css({'color': '#f33'});
                 flag = !flag;
             } else {
                 $(this).removeClass().addClass('iconfont icon-duoxuan-weixuan').css({'color': '#484848'});
@@ -70,6 +70,7 @@
         //获取验证码
         $('#yz_code').on('click', function () {
             $(this).html(s);
+            myAlert('验证码已发送！')
             time();
         });
 
@@ -114,15 +115,15 @@
 
 
                     } else {
-                        console.log('两次密码不一致！');
+                        myAlert('两次密码不一致!')
                     }
 
                 } else {
-                    console.log('请阅读协议后在进行注册！');
+                    myAlert('请阅读协议后在进行注册!')
                 }
 
             } else {
-                console.log('请填写完成后，在进行提交！');
+                myAlert('请填写完成后，在进行提交！')
             }
         });
 
