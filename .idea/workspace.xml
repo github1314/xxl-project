@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73d60791-b365-41df-8d5c-676fa8403f31" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/pages/workBench/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/font/demo_fontclass.html" beforeDir="false" afterPath="$PROJECT_DIR$/statics/font/demo_fontclass.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/font/demo_symbol.html" beforeDir="false" afterPath="$PROJECT_DIR$/statics/font/demo_symbol.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/font/demo_unicode.html" beforeDir="false" afterPath="$PROJECT_DIR$/statics/font/demo_unicode.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/font/iconfont.css" beforeDir="false" afterPath="$PROJECT_DIR$/statics/font/iconfont.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/font/iconfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/statics/font/iconfont.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/font/iconfont.js" beforeDir="false" afterPath="$PROJECT_DIR$/statics/font/iconfont.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/font/iconfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/statics/font/iconfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/font/iconfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/statics/font/iconfont.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/font/iconfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/statics/font/iconfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/pages/users/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/pages/users/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/pages/workMsg/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/pages/workMsg/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/pages/workSurface/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/pages/workSurface/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/css/signIn.css" beforeDir="false" afterPath="$PROJECT_DIR$/statics/css/signIn.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,57 +20,20 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="50" column="16" lean-forward="true" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+            <state relative-caret-position="414">
+              <caret line="35" column="16" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="16" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/view/pages/workBench/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="163" column="35" selection-start-line="163" selection-start-column="35" selection-end-line="163" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/statics/css/register.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-534">
-              <caret line="13" selection-start-line="13" selection-end-line="17" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/register/register.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="100" column="30" lean-forward="true" selection-start-line="100" selection-start-column="30" selection-end-line="100" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="agreement.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/register/agreement.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
-              <caret line="98" column="7" lean-forward="true" selection-start-line="98" selection-start-column="7" selection-end-line="98" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="signIn.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="signIn.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/statics/css/signIn.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="563">
-              <caret line="58" column="13" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
+            <state relative-caret-position="431">
+              <caret line="53" column="13" lean-forward="true" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -100,6 +52,7 @@
     <findStrings>
       <find>消消乐</find>
       <find>register_tel</find>
+      <find>signin</find>
     </findStrings>
     <replaceStrings>
       <replace>销销乐</replace>
@@ -117,13 +70,13 @@
         <option value="$PROJECT_DIR$/view/pages/workSurface/index.html" />
         <option value="$PROJECT_DIR$/statics/css/workMsg/index.css" />
         <option value="$PROJECT_DIR$/view/SignIn/index.html" />
-        <option value="$PROJECT_DIR$/statics/css/signIn.css" />
         <option value="$PROJECT_DIR$/view/signIn/index.html" />
         <option value="$PROJECT_DIR$/view/index.html" />
         <option value="$PROJECT_DIR$/view/register/agreement.html" />
         <option value="$PROJECT_DIR$/view/register/register.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/view/pages/workBench/index.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/statics/css/signIn.css" />
       </list>
     </option>
   </component>
@@ -270,12 +223,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1524906582349</updated>
-      <workItem from="1524906583633" duration="7510000" />
+      <workItem from="1524906583633" duration="8208000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7510000" />
+    <option name="totallyTimeSpent" value="8208000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
@@ -350,13 +303,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/statics/css/signIn.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="58" column="13" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/statics/font/demo.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -374,21 +320,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/view/pages/workBench/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="159" lean-forward="true" selection-start-line="159" selection-end-line="159" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="50" column="16" lean-forward="true" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+        <state relative-caret-position="414">
+          <caret line="35" column="16" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="16" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/pages/workBench/index.html">
+    <entry file="file://$PROJECT_DIR$/statics/css/signIn.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="163" column="35" selection-start-line="163" selection-start-column="35" selection-end-line="163" selection-end-column="35" />
+        <state relative-caret-position="431">
+          <caret line="53" column="13" lean-forward="true" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
         </state>
       </provider>
     </entry>
