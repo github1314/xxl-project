@@ -31,7 +31,7 @@ input {
     position: absolute;
     left:20%;
     font-size: 0.7rem;
-    line-height: 1.8rem;
+    line-height: 2.3rem;
 
 }
 .register_pass .iconfont {
@@ -39,7 +39,7 @@ input {
     position: absolute;
     left:20%;
     font-size: 0.7rem;
-    line-height: 1.8rem;
+    line-height: 2.3rem;
 }
 
 #ok > a {

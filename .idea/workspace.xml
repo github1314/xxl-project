@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73d60791-b365-41df-8d5c-676fa8403f31" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/font/demo_fontclass.html" beforeDir="false" afterPath="$PROJECT_DIR$/statics/font/demo_fontclass.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/font/demo_symbol.html" beforeDir="false" afterPath="$PROJECT_DIR$/statics/font/demo_symbol.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/font/demo_unicode.html" beforeDir="false" afterPath="$PROJECT_DIR$/statics/font/demo_unicode.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/font/iconfont.css" beforeDir="false" afterPath="$PROJECT_DIR$/statics/font/iconfont.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/font/iconfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/statics/font/iconfont.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/font/iconfont.js" beforeDir="false" afterPath="$PROJECT_DIR$/statics/font/iconfont.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/font/iconfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/statics/font/iconfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/font/iconfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/statics/font/iconfont.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/font/iconfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/statics/font/iconfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/register/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/register/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/css/signIn.css" beforeDir="false" afterPath="$PROJECT_DIR$/statics/css/signIn.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,11 +16,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="forget.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="forget.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/forget/forget.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
+            <state relative-caret-position="1046">
               <caret line="66" column="33" lean-forward="true" selection-start-line="66" selection-start-column="33" selection-end-line="66" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="signIn.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/statics/css/signIn.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="366">
+              <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -71,7 +81,6 @@
         <option value="$PROJECT_DIR$/view/index.html" />
         <option value="$PROJECT_DIR$/view/register/agreement.html" />
         <option value="$PROJECT_DIR$/view/pages/workBench/index.html" />
-        <option value="$PROJECT_DIR$/statics/css/signIn.css" />
         <option value="$PROJECT_DIR$/statics/css/register.css" />
         <option value="$PROJECT_DIR$/statics/css/agreement.css" />
         <option value="$PROJECT_DIR$/index.html" />
@@ -80,6 +89,7 @@
         <option value="$PROJECT_DIR$/statics/css/forget/editPass.css" />
         <option value="$PROJECT_DIR$/view/forget/editPass.html" />
         <option value="$PROJECT_DIR$/view/forget/forget.html" />
+        <option value="$PROJECT_DIR$/statics/css/signIn.css" />
       </list>
     </option>
   </component>
@@ -226,12 +236,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1524906582349</updated>
-      <workItem from="1524906583633" duration="13969000" />
+      <workItem from="1524906583633" duration="14196000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13969000" />
+    <option name="totallyTimeSpent" value="14196000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
@@ -313,23 +323,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/statics/css/signIn.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/statics/font/demo.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -370,8 +363,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/forget/forget.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
+        <state relative-caret-position="1046">
           <caret line="66" column="33" lean-forward="true" selection-start-line="66" selection-start-column="33" selection-end-line="66" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statics/css/signIn.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
         </state>
       </provider>
     </entry>
