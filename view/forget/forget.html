@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="format-detection" content="telephone=no, email=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <title>忘记密码</title>
+    <link rel="stylesheet" href="../../statics/css/publicStyle/base.css">
+    <link rel="stylesheet" href="../../statics/font/iconfont.css">
+    <link rel="stylesheet" href="../../statics/css/publicStyle/headerStyle.css">
+    <link rel="stylesheet" href="../../statics/css/publicStyle/wrapperStyleLarge.css">
+    <link rel="stylesheet" href="../../statics/css/publicStyle/footerStyle.css">
+    <link rel="stylesheet" href="../../statics/css/forget/forget.css">
+    <script src="../../statics/plugins/jquery-1.8.2.min.js"></script>
+    <script src="../../statics/js/publicJs/rem.js"></script>
+    <script src="../../statics/js/publicJs/jsFn.js"></script>
+</head>
+<body>
+<div class="header">
+    <i onclick="window.history.go(-1)" class="iconfont icon-iconfontjiantou1"></i>
+    <span>找回密码</span>
+</div>
+<div id="wrapper">
+    <div>
+        <div class="register_name">
+            <i class="iconfont icon-shenfenzheng"></i>
+            <input id="sxCode" type="text" placeholder="请输入身份证号" value="">
+        </div>
+        <div class="register_pass">
+            <i class="iconfont icon-shouji1"></i>
+            <input id="tel" type="text" placeholder="请输入手机号" value="">
+        </div>
+        <div class="register_code">
+            <i class="iconfont icon-guanbi"></i>
+            <input id="code" type="text" placeholder="请输入验证码">
+            <a href="#" id="yz_code">获取验证码</a>
+        </div>
+        <div id="next">
+            <a href="#">下一步</a>
+        </div>
+
+    </div>
+</div>
+</body>
+<script>
+    $(function () {
+
+        var s=60,times;
+
+        //验证码倒计时
+        $('#yz_code').on('click',function () {
+            time();
+        });
+
+        //下一步
+        $('#next').on('click',function () {
+            var $sxCode = $('#sxCode').val();
+            var $tel = $('#tel').val();
+            var $code = $('#code').val();
+            //判断数据是否为空
+            if($sxCode && $tel && $code){
+
+                window.location.href = 'editPass.html';
+
+                //提交数据的ajax
+                $.ajax({
+                    url:'',
+                    type:'post',
+                    dataType:'json',
+                    data:{},
+                    success:function (data) {
+                        console.log(data)
+                        if(data.state == 200){
+                            window.location.href = 'editPass.html';
+                        }
+                    },
+                    error:function (err) {
+                        console.log(err)
+                    }
+                })
+            }else {
+                myAlert('请填写完成后在进行提交！');
+            }
+
+        });
+        function time() {
+            clearInterval(times);
+            times = setInterval(t, 1000);
+        }
+
+        function t() {
+
+            if (s < 1) {
+                $('#yz_code').html('重新获取');
+                s = 60;
+                clearInterval(times);
+                return;
+            }
+            s -= 1;
+            $('#yz_code').html(s);
+        }
+    });
+</script>
+</html>

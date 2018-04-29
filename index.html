@@ -34,15 +34,12 @@
     <a href="#">登录</a>
 </div>
 <div class="pass">
-    <a href="#" style="margin-right: 0.5rem;">忘记密码</a>
+    <a href="#" id="forget" style="margin-right: 0.5rem;">忘记密码</a>
     <a href="#" id="register">注册账号</a>
 </div>
 </body>
 <script>
     $(function () {
-
-
-
 
         $('#signin>a').on('click',function () {
 
@@ -57,7 +54,11 @@
                 myAlert('填写完整后在进行登录！')
             }
         });
-
+        //忘记密码
+        $('#forget').on('click',function () {
+             window.location.href = 'view/forget/forget.html';
+        });
+        //注册账号
         $('#register').on('click',function () {
              window.location.href = 'view/register/register.html';
         });

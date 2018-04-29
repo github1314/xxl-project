@@ -1,0 +1,67 @@
+body{
+    background: #fff;
+}
+.register_name, .register_pass {
+    width: 60%;
+    padding-left:1.4rem;
+    line-height: 1.877rem;
+    border-bottom: 1px solid #e5e5e5;
+    margin: 0 auto;
+}
+
+.register_name {
+    text-align: left;
+    margin-top: 1rem;
+}
+
+.register_pass {
+    text-align: left;
+    margin-top: 0.3rem;
+}
+
+input {
+    border: none;
+    outline: none;
+    font-size: 0.5rem;
+
+}
+
+.register_name .iconfont {
+    color: #777;
+    position: absolute;
+    left:20%;
+    font-size: 0.7rem;
+    line-height: 1.8rem;
+
+}
+.register_pass .iconfont {
+    color: #777;
+    position: absolute;
+    left:20%;
+    font-size: 0.7rem;
+    line-height: 1.8rem;
+}
+
+#ok > a {
+    display: block;
+    width: 60%;
+    height: 1.877rem;
+    line-height: 1.877rem;
+    background: #f33;
+    color: #fff;
+    text-align: center;
+    font-size: 0.6rem;
+    border-radius: 3rem;
+    margin: 1.3rem auto 0 auto;
+
+}
+
+.register_code{
+    width: 60%;
+    height: 1.877rem;
+    margin: 0.3rem auto;
+    position: relative;
+    line-height: 1.877rem;
+    border-bottom: 1px solid #e5e5e5;
+    padding-left: 1.4rem;
+}

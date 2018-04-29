@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="format-detection" content="telephone=no, email=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <title>修改密码</title>
+    <link rel="stylesheet" href="../../statics/css/publicStyle/base.css">
+    <link rel="stylesheet" href="../../statics/font/iconfont.css">
+    <link rel="stylesheet" href="../../statics/css/publicStyle/headerStyle.css">
+    <link rel="stylesheet" href="../../statics/css/publicStyle/wrapperStyleLarge.css">
+    <link rel="stylesheet" href="../../statics/css/publicStyle/footerStyle.css">
+    <link rel="stylesheet" href="../../statics/css/forget/editPass.css">
+    <script src="../../statics/plugins/jquery-1.8.2.min.js"></script>
+    <script src="../../statics/js/publicJs/rem.js"></script>
+    <script src="../../statics/js/publicJs/jsFn.js"></script>
+</head>
+<body>
+<div class="header">
+    <i onclick="window.history.go(-1)" class="iconfont icon-iconfontjiantou1"></i>
+    <span>修改密码</span>
+</div>
+<div id="wrapper">
+    <div>
+        <div class="register_name">
+            <i class="iconfont icon-mima"></i>
+            <input id="pass" type="password" placeholder="请输入新密码" value="">
+        </div>
+        <div class="register_pass">
+            <i class="iconfont icon-mima"></i>
+            <input id="qrPass" type="password" placeholder="请确认密码" value="">
+        </div>
+
+        <div id="ok">
+            <a href="#">确定</a>
+        </div>
+
+    </div>
+</div>
+</body>
+<script>
+    $(function () {
+
+        //确认提交
+        $('#ok').on('click', function () {
+            var pass = $('#pass').val();
+            var qrPass = $('#qrPass').val();
+            //判断密码是否为空
+            if (pass && qrPass) {
+                //判断两次密码是否一致
+                if (pass == qrPass) {
+
+                    window.location.href = '../../index.html';
+                    //信息确认后进行ajax提交
+                    $.ajax({
+                        url:'',
+                        type:'post',
+                        dataType:'json',
+                        data:{},
+                        success:function (data) {
+                            console.log(data);
+                            //判断状态返回成功是进行下一步操作
+                            if(data.state == 200){
+                                window.location.href = '../../index.html';
+                            }
+                        },
+                        error:function (err) {
+                            console.log(err)
+                        }
+                    })
+
+
+                } else {
+                    myAlert('两次密码输入不一样');
+                }
+            } else {
+                myAlert('请填写完整后在进行提交！');
+            }
+        });
+
+    });
+</script>
+</html>
