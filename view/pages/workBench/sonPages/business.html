@@ -33,7 +33,7 @@
                 <i class="iconfont icon-youjiantou"></i>
             </div>
             <div class="nenu_details">
-                <a class="btn" href="#"><i class="iconfont icon-tianjia"></i> 添加客户</a>
+                <a id="choice" class="btn" href="#"><i class="iconfont icon-tianjia"></i> 添加客户</a>
             </div>
         </div>
         <div class="menu">
@@ -42,7 +42,7 @@
                 <i class="iconfont icon-youjiantou"></i>
             </div>
             <div class="nenu_details">
-                <a class="btn" href="#"><i class="iconfont icon-tianjia"></i> 添加仓库</a>
+                <a id="add_cc" class="btn" href="#"><i class="iconfont icon-tianjia"></i> 添加仓库</a>
             </div>
         </div>
         <div class="menu">
@@ -76,63 +76,61 @@
 </div>
 <div id="model_kh" class="model">
     <div>
-        <p>客户选择</p>
-        <div class="model_kh_box">
-            <p>总共<span>23</span>个客户，应收总额<span>¥234232.32</span></p>
-            <ul class="model_kh_box_menu">
-                <li>
-                    <div class="clearFix">
-                        <p>永辉超市</p>
-                        <p>收款：<span>¥23.00</span></p>
-                    </div>
-                    <p>地址：<span>郑东新区龙湖湖正商学府B座1205</span></p>
-                </li>
-                <li>
-                    <div class="clearFix">
-                        <p>永辉超市</p>
-                        <p>收款：<span>¥23.00</span></p>
-                    </div>
-                    <p>地址：<span>郑东新区龙湖湖正商学府B座1205</span></p>
-                </li>
-                <li>
-                    <div class="clearFix">
-                        <p>永辉超市</p>
-                        <p>收款：<span>¥23.00</span></p>
-                    </div>
-                    <p>地址：<span>郑东新区龙湖湖正商学府B座1205</span></p>
-                </li>
-                <li>
-                    <div class="clearFix">
-                        <p>永辉超市</p>
-                        <p>收款：<span>¥23.00</span></p>
-                    </div>
-                    <p>地址：<span>郑东新区龙湖湖正商学府B座1205</span></p>
-                </li>
-                <li>
-                    <div class="clearFix">
-                        <p>永辉超市</p>
-                        <p>收款：<span>¥23.00</span></p>
-                    </div>
-                    <p>地址：<span>郑东新区龙湖湖正商学府B座1205</span></p>
-                </li>
-                <li>
-                    <div class="clearFix">
-                        <p>永辉超市</p>
-                        <p>收款：<span>¥23.00</span></p>
-                    </div>
-                    <p>地址：<span>郑东新区龙湖湖正商学府B座1205</span></p>
-                </li>
-                <li>
-                    <div class="clearFix">
-                        <p>永辉超市</p>
-                        <p>收款：<span>¥23.00</span></p>
-                    </div>
-                    <p>地址：<span>郑东新区龙湖湖正商学府B座1205</span></p>
-                </li>
-            </ul>
-        </div>
-        <i class="iconfont icon-add"></i>
-        <i class="iconfont "></i>
+        <p>仓库选择</p>
+        <ul id="ck">
+            <li>
+                <p>河南郑州</p>
+            </li>
+            <li>
+                <p>河南郑州</p>
+            </li>
+            <li>
+                <p>河南郑州</p>
+            </li>
+            <li>
+                <p>河南郑州</p>
+            </li>
+            <li>
+                <p>河南郑州</p>
+            </li>
+            <li>
+                <p>河南郑州</p>
+            </li>
+            <li>
+                <p>河南郑州</p>
+            </li>
+            <li>
+                <p>河南郑州</p>
+            </li>
+            <li>
+                <p>河南郑州</p>
+            </li>
+            <li>
+                <p>河南郑州</p>
+            </li>
+            <li>
+                <p>河南郑州</p>
+            </li>
+            <li>
+                <p>河南郑州</p>
+            </li>
+            <li>
+                <p>河南郑州</p>
+            </li>
+            <li>
+                <p>河南郑州</p>
+            </li>
+            <li>
+                <p>河南郑州</p>
+            </li>
+            <li>
+                <p>河南郑州</p>
+            </li>
+            <li>
+                <p>河南郑州</p>
+            </li>
+
+        </ul>
     </div>
 </div>
 </body>
@@ -140,6 +138,69 @@
     $(function () {
 
         var flag = true;
+
+        var $len = window.location.href.split('?').length;
+
+        if ($len > 1) {
+
+            //传过来的id
+            var $id = parseInt(window.location.href.split('?')[1].split('=')[1]);
+            //传过来的下标，指向第几个菜单
+            var $index = parseInt(window.location.href.split('?')[1].split('=')[2]);
+
+            $('.menu').eq($index).children('.nenu_details').slideDown(400);
+
+            $('.menu').eq($index).children('.menu_h').children('i').css({
+                'transform': 'rotate(90deg)'
+            });
+
+            flag = !flag;
+
+            if ($index == 0) {
+                $('.menu').eq($index).children('.nenu_details').children('a').hide();
+
+                $('.menu').eq($index).children('.nenu_details').append($('<div class="clearFix"><p>永辉超市</p><p>收款：<span>¥23.00</span></p></div><p>地址：<span>郑东新区龙湖湖正商学府B座1205</span></p>'))
+
+            }
+
+            $.ajax({
+                url: '',
+                type: 'post',
+                dataType: 'json',
+                data: {id: $id},
+                success: function (data) {
+                    console.log(data)
+                },
+                error: function (err) {
+                    console.log(err)
+                }
+            })
+
+        } else {
+
+        }
+
+        $('#add_cc').on('click',function () {
+            $('#model_kh').show();
+        });
+
+        var $p = $('#model_kh>div').css('padding-bottom');
+        var $w = $('#model_kh>div').outerHeight()-$('#model_kh>div>p').outerHeight() - parseFloat($p);
+        $('#model_kh>div>ul').css({
+            'height':$w
+        });
+
+        $('#ck').on('click','li',function () {
+            var $address = $(this).children('p').html();
+            $('#model_kh').hide();
+            $('.menu').eq(1).children('.menu_h').children('i').css({
+                'transform': 'rotate(90deg)'
+            });
+            $('.menu').eq(1).children('.nenu_details').slideDown(400);
+            $('.menu').eq(1).children('.nenu_details').children('a').hide();
+            $('.menu').eq(1).children('.nenu_details').append('<p>'+ $address +'仓库</p>');
+            $()
+        });
 
         $('.menu_h').on('click', function () {
             if (flag) {
@@ -158,22 +219,26 @@
 
         });
 
-        $('#remarks').on('focus',function () {
+        $('#remarks').on('focus', function () {
             $(this).val('');
             $(this).css({
-                'color':'#333'
+                'color': '#333'
             });
         });
-        $('#remarks').on('blur',function () {
+        $('#remarks').on('blur', function () {
 
         });
 
-        $('#model_kh').on('click',function () {
+        $('#model_kh').on('click', function () {
             $(this).hide();
         });
-        $('#model_kh>div').on('click',function (e) {
+        $('#model_kh>div').on('click', function (e) {
             e.stopPropagation();
         })
+
+        $('#choice').on('click', function () {
+            window.location.href = 'business/choice.html';
+        });
 
     });
 </script>

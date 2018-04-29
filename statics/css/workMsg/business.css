@@ -99,7 +99,7 @@
 .model>div{
     width: 80%;
     height: 80%;
-    background: #f4f4f4;
+    background: #fff;
     position: absolute;
     left: 0;
     top: 0;
@@ -107,59 +107,52 @@
     right: 0;
     margin: auto;
     border-radius: 0.6rem;
-    padding: 0.6rem 1rem;
+    /*padding: 0.6rem 1rem;*/
+    overflow: hidden;
+    padding-bottom: 1.2rem;
 }
 .model>div>p{
     font-size: 0.6rem;
     text-align: center;
+    padding: 0.6rem;
+    background: #f33;
+    color: #fff;
 }
-.model>div>.iconfont{
-    font-size: 1rem;
-    color: #333;
-    position: absolute;
-    top: 0.4rem;
-    right: 0.9rem;
-}
-.model_kh_box{
-    width: 100%;
-    height: 90%;
-    border: 1px solid #e5e5e5;
-    border-radius: 5px;
-    margin-top: 0.6rem;
+
+.model>div>ul{
+    padding: 0 0.4rem;
     overflow: auto;
-    background: #fff;
 }
-.model_kh_box>p{
-    font-size: 0.5rem;
-    text-align: center;
-    background: #e5e5e5;
-    padding: 0.3rem 0;
+.model>div>ul>li{
+    border-bottom: 1px solid #e5e5e5;
+    padding-left: 1rem;
 }
-.model_kh_box>p>span{
-    color: #f33;
+.model>div>ul>li>p{
+    font-size: 0.512rem;
+    padding: 0.5rem 0;
 }
-.model_kh_box_menu{
+.nenu_details{
 
 }
-.model_kh_box_menu>li{
-    padding: 0.5rem 0.7rem;
-    border-bottom: 1px solid #e5e5e5;
-}
-.model_kh_box_menu>li>div>p:nth-of-type(1){
+.nenu_details>div>p:nth-of-type(1){
     float: left;
     font-size: 0.5rem;
     color: #333;
+    font-weight: bolder;
 }
-.model_kh_box_menu>li>div>p:nth-of-type(2){
+.nenu_details>div>p:nth-of-type(2){
     float: right;
     font-size: 0.5rem;
     color: #333;
 }
-.model_kh_box_menu>li>div>p:nth-of-type(2)>span{
+.nenu_details>div>p:nth-of-type(2)>span{
     color: #f33;
 }
-.model_kh_box_menu>li>p{
+.nenu_details>p{
     font-size: 0.5rem;
     color: #333;
     margin-top: 0.3rem;
+}
+#model_kh{
+    display: none;
 }
