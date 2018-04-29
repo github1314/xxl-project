@@ -117,64 +117,65 @@
 <script>
     $(function () {
 
-        $("#workBench").on('click',function () {
+        $("#workBench").on('click', function () {
             window.location.href = '../workBench/index.html';
         });
-        $("#workMsg").on('click',function () {
+        $("#workMsg").on('click', function () {
             window.location.href = '../workMsg/index.html';
         });
-        $("#workSurface").on('click',function () {
+        $("#workSurface").on('click', function () {
             window.location.href = '../workSurface/index.html';
         });
-        $("#users").on('click',function () {
+        $("#users").on('click', function () {
             window.location.href = '../users/index.html';
         });
 
-        var $fh = $('.footer'),$fi = $('.footer>div>i'),$fp = $('.footer>div>p');
+        var $fh = $('.footer'), $fi = $('.footer>div>i'), $fp = $('.footer>div>p');
         //页脚垂直居中
-        var $h = $fh.outerHeight()- $fi.outerHeight()-$fp.outerHeight();
+        var $h = $fh.outerHeight() - $fi.outerHeight() - $fp.outerHeight();
         var $f = $('html').css('font-size');
-        var $rh = $h/2/parseFloat($f);
+        var $rh = $h / 2 / parseFloat($f);
         $('.footer>div').css({
-            'padding-top':$rh+'rem'
+            'padding-top': $rh + 'rem'
         });
 
 
         //分享
-        $('#wx').on('click',function () {
+        $('#wx').on('click', function () {
             myAlert('微信分享');
         });
-        $('#qq').on('click',function () {
+        $('#qq').on('click', function () {
             myAlert('QQ分享');
         });
-        $('#pyq').on('click',function () {
+        $('#pyq').on('click', function () {
             myAlert('朋友圈分享');
         });
-        $('#mdm').on('click',function () {
+        $('#mdm').on('click', function () {
             myAlert('面对面分享');
         });
 
-        //menu
-        $('#edit_password').on('click',function () {
-            myAlert('修改密码');
-
+        //修改密码
+        $('#edit_password').on('click', function () {
+            window.location.href = '../../forget/editPass.html';
         });
-        $('#xinxi').on('click',function () {
+        //基础信息
+        $('#xinxi').on('click', function () {
             myAlert('基础信息');
 
         });
-        $('#renzheng').on('click',function () {
-            myAlert('实名认证');
-
+        //实名认证
+        $('#renzheng').on('click', function () {
+            window.location.href = 'sonPages/real.html';
         });
-        $('#edit_tel').on('click',function () {
+        //修改手机号
+        $('#edit_tel').on('click', function () {
             myAlert('修改手机号');
 
         });
 
         //分享居中
         $('#shareBox').css({
-            'padding-top':($('#shareBox').outerHeight() - $('#wx>img').outerHeight() - $('#wx>p').outerHeight())/2,
+            'padding-top': ($('#shareBox').outerHeight() - $('#wx>img').outerHeight() - $('#wx>p').outerHeight()) / 2,
         });
 
 

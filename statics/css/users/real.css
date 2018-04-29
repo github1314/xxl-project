@@ -1,0 +1,64 @@
+#wrapper {
+    overflow: auto;
+}
+#wrapper .careful{
+  width: 100%;
+  height: 1.5rem;
+  background: rgba(0,0,0,0.2);
+  color: #f4f4f4;
+  font-size: 0.5rem;
+  line-height: 1.5rem;
+  padding-left: 0.3rem;
+}
+#wrapper .realUl{
+  width: 100%;
+}
+#wrapper .realUl li{
+  padding: 0.3rem 0.4rem;
+  border-bottom: 1px solid #f4f4f4;
+  background: #fff;
+  height: 2.1rem;
+  display: flex;
+  font-size: 0.7rem;
+  line-height: 1.5rem;
+}
+#wrapper .realUl>li>div:nth-child(1){
+  flex: 1;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 0.6rem;
+}
+#wrapper .realUl li .regionUl{
+  flex: 2;
+  display: flex;
+  font-size: 0.512rem;
+}
+#wrapper .realUl li .regionUl div{
+  flex:5;
+}
+#wrapper .realUl li .regionUl i{
+  flex:1;
+  text-align: right;
+  font-size: 0.5rem;
+  padding-right: 0.3rem;
+}
+#wrapper .realUl>li>.regionUl>input{
+  border: 0;
+  width: 100%;
+  height: 100%;
+}
+#wrapper .button{
+  width: 100%;
+  margin-top: 2rem;
+  height: 1.877rem;
+  padding: 0 0.3rem;
+}
+#wrapper .button>input{
+  background: #f33;
+  width: 100%;
+  height: 100%;
+  color: white;
+  border: 0;
+  border-radius:6rem;
+  font-size: 0.64rem;
+}
