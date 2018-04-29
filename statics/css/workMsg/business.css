@@ -99,7 +99,7 @@
 .model>div{
     width: 80%;
     height: 80%;
-    background: #fff;
+    background: #f4f4f4;
     position: absolute;
     left: 0;
     top: 0;
@@ -126,6 +126,8 @@
     border: 1px solid #e5e5e5;
     border-radius: 5px;
     margin-top: 0.6rem;
+    overflow: auto;
+    background: #fff;
 }
 .model_kh_box>p{
     font-size: 0.5rem;
@@ -135,4 +137,29 @@
 }
 .model_kh_box>p>span{
     color: #f33;
+}
+.model_kh_box_menu{
+
+}
+.model_kh_box_menu>li{
+    padding: 0.5rem 0.7rem;
+    border-bottom: 1px solid #e5e5e5;
+}
+.model_kh_box_menu>li>div>p:nth-of-type(1){
+    float: left;
+    font-size: 0.5rem;
+    color: #333;
+}
+.model_kh_box_menu>li>div>p:nth-of-type(2){
+    float: right;
+    font-size: 0.5rem;
+    color: #333;
+}
+.model_kh_box_menu>li>div>p:nth-of-type(2)>span{
+    color: #f33;
+}
+.model_kh_box_menu>li>p{
+    font-size: 0.5rem;
+    color: #333;
+    margin-top: 0.3rem;
 }

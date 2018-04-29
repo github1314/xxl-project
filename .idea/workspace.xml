@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73d60791-b365-41df-8d5c-676fa8403f31" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/font/demo_fontclass.html" beforeDir="false" afterPath="$PROJECT_DIR$/statics/font/demo_fontclass.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/font/demo_symbol.html" beforeDir="false" afterPath="$PROJECT_DIR$/statics/font/demo_symbol.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/font/demo_unicode.html" beforeDir="false" afterPath="$PROJECT_DIR$/statics/font/demo_unicode.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/font/iconfont.css" beforeDir="false" afterPath="$PROJECT_DIR$/statics/font/iconfont.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/font/iconfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/statics/font/iconfont.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/font/iconfont.js" beforeDir="false" afterPath="$PROJECT_DIR$/statics/font/iconfont.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/font/iconfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/statics/font/iconfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/font/iconfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/statics/font/iconfont.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/font/iconfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/statics/font/iconfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/css/workMsg/business.css" beforeDir="false" afterPath="$PROJECT_DIR$/statics/css/workMsg/business.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/pages/workBench/sonPages/business.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/pages/workBench/sonPages/business.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -26,20 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="business.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="business.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/pages/workBench/sonPages/business.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="78" column="19" lean-forward="true" selection-start-line="78" selection-start-column="19" selection-end-line="78" selection-end-column="19" />
+            <state relative-caret-position="699">
+              <caret line="130" column="21" selection-start-line="130" selection-start-column="21" selection-end-line="130" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="business.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="business.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/statics/css/workMsg/business.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="631">
-              <caret line="136" column="15" selection-start-line="136" selection-start-column="15" selection-end-line="136" selection-end-column="15" />
+            <state relative-caret-position="250">
+              <caret line="137" column="1" lean-forward="true" selection-start-line="137" selection-start-column="1" selection-end-line="137" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -116,8 +107,8 @@
         <option value="$PROJECT_DIR$/view/pages/workBench/sonPages/registrationOfReceipts.html" />
         <option value="$PROJECT_DIR$/view/pages/workBench/sonPages/salesRefund.html" />
         <option value="$PROJECT_DIR$/view/pages/workBench/sonPages/timeCard.html" />
-        <option value="$PROJECT_DIR$/view/pages/workBench/sonPages/business.html" />
         <option value="$PROJECT_DIR$/statics/css/workMsg/business.css" />
+        <option value="$PROJECT_DIR$/view/pages/workBench/sonPages/business.html" />
       </list>
     </option>
   </component>
@@ -314,7 +305,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34444000" />
+    <option name="totallyTimeSpent" value="35398000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
@@ -719,17 +710,17 @@
     <entry file="file://$PROJECT_DIR$/statics/font/demo.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/pages/workBench/sonPages/business.html">
+    <entry file="file://$PROJECT_DIR$/statics/css/workMsg/business.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="78" column="19" lean-forward="true" selection-start-line="78" selection-start-column="19" selection-end-line="78" selection-end-column="19" />
+        <state relative-caret-position="250">
+          <caret line="137" column="1" lean-forward="true" selection-start-line="137" selection-start-column="1" selection-end-line="137" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/statics/css/workMsg/business.css">
+    <entry file="file://$PROJECT_DIR$/view/pages/workBench/sonPages/business.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="631">
-          <caret line="136" column="15" selection-start-line="136" selection-start-column="15" selection-end-line="136" selection-end-column="15" />
+        <state relative-caret-position="699">
+          <caret line="130" column="21" selection-start-line="130" selection-start-column="21" selection-end-line="130" selection-end-column="21" />
         </state>
       </provider>
     </entry>
