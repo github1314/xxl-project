@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="../../../../statics/css/publicStyle/headerStyle.css">
     <link rel="stylesheet" href="../../../../statics/css/publicStyle/wrapperStyleSmall.css">
     <link rel="stylesheet" href="../../../../statics/css/publicStyle/footerStyle.css">
-    <link rel="stylesheet" href="../../../../statics/css/index.css">
+    <link rel="stylesheet" href="../../../../statics/css/workMsg/business.css">
     <script src="../../../../statics/plugins/jquery-1.8.2.min.js"></script>
     <script src="../../../../statics/js/publicJs/rem.js"></script>
     <script src="../../../../statics/js/publicJs/jsFn.js"></script>
@@ -26,14 +26,109 @@
 </div>
 <div id="wrapper">
     <div>
+        <!-- 客户名称 -->
+        <div class="menu">
+            <div class="menu_h">
+                <span>客户名称</span>
+                <i class="iconfont icon-youjiantou"></i>
+            </div>
+            <div class="nenu_details">
+                <a class="btn" href="#"><i class="iconfont icon-tianjia"></i> 添加客户</a>
+            </div>
+        </div>
+        <div class="menu">
+            <div class="menu_h">
+                <span>发货仓库</span>
+                <i class="iconfont icon-youjiantou"></i>
+            </div>
+            <div class="nenu_details">
+                <a class="btn" href="#"><i class="iconfont icon-tianjia"></i> 添加仓库</a>
+            </div>
+        </div>
+        <div class="menu">
+            <div class="menu_h">
+                <span>商品选择</span>
+                <i class="iconfont icon-youjiantou"></i>
+            </div>
+            <div class="nenu_details">
+                <a class="btn" href="#"><i class="iconfont icon-tianjia"></i> 添加商品</a>
+            </div>
+        </div>
+        <div class="menu">
+            <div class="menu_h">
+                <span>赠品选择</span>
+                <i class="iconfont icon-youjiantou"></i>
+            </div>
+            <div class="nenu_details">
+                <a class="btn" href="#"><i class="iconfont icon-tianjia"></i> 添加赠品</a>
+            </div>
+        </div>
+        <div class="remarks">
+            <p>备注:</p>
+            <textarea name="" id="remarks">点击输入...</textarea>
+        </div>
 
     </div>
 </div>
-<div class="footer"></div>
+<div class="footer">
+    <div><span>应收金额:</span> <span>¥0.00</span></div>
+    <div>提交</div>
+</div>
+<div id="model_kh" class="model">
+    <div>
+        <p>客户选择</p>
+        <div class="model_kh_box">
+            <p>总共<span>23</span>个客户，应收总额<span>¥234232.32</span></p>
+            <ul>
+                <li>
+                    
+                </li>
+            </ul>
+        </div>
+        <i class="iconfont icon-add"></i>
+        <i class="iconfont "></i>
+    </div>
+</div>
 </body>
 <script>
     $(function () {
-        expect()
+
+        var flag = true;
+
+        $('.menu_h').on('click', function () {
+            if (flag) {
+                $(this).siblings('.nenu_details').slideDown(400);
+                $(this).children('i').css({
+                    'transform': 'rotate(90deg)'
+                });
+                flag = !flag;
+            } else {
+                $(this).siblings('.nenu_details').slideUp(400);
+                $(this).children('i').css({
+                    'transform': 'rotate(0deg)'
+                });
+                flag = !flag;
+            }
+
+        });
+
+        $('#remarks').on('focus',function () {
+            $(this).val('');
+            $(this).css({
+                'color':'#333'
+            });
+        });
+        $('#remarks').on('blur',function () {
+
+        });
+
+        $('#model_kh').on('click',function () {
+            $(this).hide();
+        });
+        $('#model_kh>div').on('click',function (e) {
+            e.stopPropagation();
+        })
+
     });
 </script>
 </html>
