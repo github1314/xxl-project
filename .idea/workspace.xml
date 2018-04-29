@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73d60791-b365-41df-8d5c-676fa8403f31" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/css/users/real.css" beforeDir="false" afterPath="$PROJECT_DIR$/statics/css/users/real.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/pages/users/sonPages/real.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/pages/users/sonPages/real.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,20 +16,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="real.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="real.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/pages/users/sonPages/real.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+            <state relative-caret-position="435">
+              <caret line="62" column="26" lean-forward="true" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="real.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="real.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/statics/css/users/real.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+            <state relative-caret-position="289">
+              <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -56,6 +55,7 @@
       <find>#wrapper .careful</find>
       <find>model</find>
       <find>regionUl</find>
+      <find>#wrapper .realUl&gt;li&gt;.regionUl&gt;input</find>
     </findStrings>
     <replaceStrings>
       <replace>销销乐</replace>
@@ -83,13 +83,13 @@
         <option value="$PROJECT_DIR$/statics/css/forget/forget.css" />
         <option value="$PROJECT_DIR$/statics/css/forget/editPass.css" />
         <option value="$PROJECT_DIR$/view/forget/editPass.html" />
-        <option value="$PROJECT_DIR$/view/pages/users/sonPages/real.html" />
         <option value="$PROJECT_DIR$/view/forget/forget.html" />
         <option value="$PROJECT_DIR$/view/pages/workBench/index.html" />
         <option value="$PROJECT_DIR$/statics/js/publicJs/jsFn.js" />
         <option value="$PROJECT_DIR$/statics/css/users/index.css" />
         <option value="$PROJECT_DIR$/view/pages/users/index.html" />
         <option value="$PROJECT_DIR$/statics/css/users/real.css" />
+        <option value="$PROJECT_DIR$/view/pages/users/sonPages/real.html" />
       </list>
     </option>
   </component>
@@ -278,7 +278,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22905000" />
+    <option name="totallyTimeSpent" value="23221000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
@@ -620,17 +620,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/pages/users/sonPages/real.html">
+    <entry file="file://$PROJECT_DIR$/statics/css/users/real.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+        <state relative-caret-position="289">
+          <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/statics/css/users/real.css">
+    <entry file="file://$PROJECT_DIR$/view/pages/users/sonPages/real.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+        <state relative-caret-position="435">
+          <caret line="62" column="26" lean-forward="true" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
         </state>
       </provider>
     </entry>
