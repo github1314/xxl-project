@@ -31,15 +31,15 @@
             <a href="#">查看更多</a>
         </div>
         <ul class="clearFix">
-            <li class="bt">
+            <li class="bt xsjc">
                 <img src="../../../statics/images/index/WechatIMG95_03.png" alt="">
                 <p>新手教程</p>
             </li>
-            <li class="bt">
+            <li class="bt kqdk">
                 <img src="../../../statics/images/index/WechatIMG95_05.png" alt="">
                 <p>考勤打卡</p>
             </li>
-            <li class="bt">
+            <li class="bt tzgg">
                 <img src="../../../statics/images/index/WechatIMG95_07.png" alt="">
                 <p>通知公告</p>
             </li>
@@ -53,7 +53,7 @@
                 <p>申请审批</p>
             </li>
             -->
-            <li>
+            <li class="txl">
                 <img src="../../../statics/images/index/WechatIMG95_17.png" alt="">
                 <p>通讯录</p>
             </li>
@@ -63,15 +63,15 @@
             <a href="#">查看更多</a>
         </div>
         <ul class="clearFix">
-            <li>
+            <li class="khgl">
                 <img src="../../../statics/images/index/WechatIMG95_21.png" alt="">
                 <p>客户管理</p>
             </li>
-            <li>
+            <li class="khbf">
                 <img src="../../../statics/images/index/WechatIMG95_22.png" alt="">
                 <p>客户拜访</p>
             </li>
-            <li>
+            <li class="khkc">
                 <img src="../../../statics/images/index/WechatIMG95_23.png" alt="">
                 <p>客户库存</p>
             </li>
@@ -81,23 +81,23 @@
             <a href="#">查看更多</a>
         </div>
         <ul class="clearFix">
-            <li class="bt">
+            <li class="bt ywcd">
                 <img src="../../../statics/images/index/WechatIMG95_27.png" alt="">
                 <p>业务抄单</p>
             </li>
-            <li class="bt">
+            <li class="bt ddgl">
                 <img src="../../../statics/images/index/WechatIMG95_28.png" alt="">
                 <p>订单管理</p>
             </li>
-            <li class="bt">
+            <li class="bt xstd">
                 <img src="../../../statics/images/index/WechatIMG95_29.png" alt="">
                 <p>销售退单</p>
             </li>
-            <li class="bt rtn">
+            <li class="bt rtn skdj">
                 <img src="../../../statics/images/index/WechatIMG95_30.png" alt="">
                 <p>收款登记</p>
             </li>
-            <li>
+            <li class="sprk">
                 <img src="../../../statics/images/index/WechatIMG95_35.png" alt="">
                 <p>商品入库</p>
             </li>
@@ -107,11 +107,11 @@
                 <p>调拨单</p>
             </li>
             -->
-            <li>
+            <li class="kcpd">
                 <img src="../../../statics/images/index/WechatIMG95_37.png" alt="">
                 <p>库存盘点</p>
             </li>
-            <li>
+            <li class="kccx">
                 <img src="../../../statics/images/index/WechatIMG95_38.png" alt="">
                 <p>库存查询</p>
             </li>
@@ -121,15 +121,15 @@
             <a href="#">查看更多</a>
         </div>
         <ul class="clearFix">
-            <li>
+            <li class="spxx">
                 <img src="../../../statics/images/index/WechatIMG94_03.png" alt="">
                 <p>商品信息</p>
             </li>
-            <li>
+            <li class="wdsp">
                 <img src="../../../statics/images/index/WechatIMG94_05.png" alt="">
                 <p>我的商铺</p>
             </li>
-            <li>
+            <li class="gd">
                 <img src="../../../statics/images/index/WechatIMG94_07.png" alt="">
                 <p>更多</p>
             </li>
@@ -160,9 +160,6 @@
 </body>
 <script>
 
-    //loading 效果
-
-
     //页脚点击
     $("#workMsg").on('click', function () {
         window.location.href = '../workMsg/index.html';
@@ -182,6 +179,81 @@
     $('.footer>div').css({
         'padding-top': $rh + 'rem'
     });
+
+    //menu跳转
+
+    //新手教程
+    $('.xsjc').on('click',function () {
+        window.location.href = 'sonPages/course.html';
+    });
+    //考勤打卡
+    $('.kqdk').on('click',function () {
+        window.location.href = 'sonPages/timeCard.html';
+    });
+    //通知公告
+    $('.tzgg').on('click',function () {
+        window.location.href = 'sonPages/noticeBulletin.html';
+    });
+    //通讯录
+    $('.txl').on('click',function () {
+        window.location.href = 'sonPages/mailList.html';
+
+    });
+    //客户管理
+    $('.khgl').on('click',function () {
+        window.location.href = 'sonPages/customerManagement.html';
+    });
+    //客户拜访
+    $('.khbf').on('click',function () {
+        window.location.href = 'sonPages/customerVisit.html';
+    });
+    //客户库存
+    $('.khkc').on('click',function () {
+        window.location.href = 'sonPages/customerInventory.html';
+    });
+    //业务抄单
+    $('.ywcd').on('click',function () {
+        window.location.href = 'sonPages/business.html';
+    });
+    //订单管理
+    $('.ddgl').on('click',function () {
+        window.location.href = 'sonPages/orderManagement.html';
+    });
+    //销售退单
+    $('.xstd').on('click',function () {
+        window.location.href = 'sonPages/salesRefund.html';
+    });
+    //收款登记
+    $('.skdj').on('click',function () {
+        window.location.href = 'sonPages/registrationOfReceipts.html';
+    });
+    //商品入库
+    $('.sprk').on('click',function () {
+        window.location.href = 'sonPages/goodsWarehousing.html';
+    });
+    //库存盘点
+    $('.kcpd').on('click',function () {
+        window.location.href = 'sonPages/inventoryInventory.html';
+    });
+    //库存查询
+    $('.kccx').on('click',function () {
+        window.location.href = 'sonPages/inventoryQuery.html';
+    });
+    //商品信息
+    $('.spxx').on('click',function () {
+        window.location.href = 'sonPages/commodityInformation.html';
+    });
+    //我的商铺
+    $('.wdsp').on('click',function () {
+        window.location.href = 'sonPages/myShop.html';
+    });
+    //更多
+    $('.gd').on('click',function () {
+        window.location.href = 'sonPages/more.html';
+
+    });
+
+
 
 
 </script>
