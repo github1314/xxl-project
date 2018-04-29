@@ -151,49 +151,6 @@ body{
     font-size: 0.512rem;
     color: #f33;
 }
-.model{
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color:rgba(0,0,0,.4);
-    width: 100%;
-    height: 100%;
-}
-.model>div{
-    width: 12.801rem;
-    height: 19.645rem;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-}
-.model>div>img:nth-of-type(1){
-    width: 100%;
-
-}
-.model>div>img:nth-of-type(2){
-    width: 1.131rem;
-    height: 1.109rem;
-    position: absolute;
-    bottom: 0;
-    left: calc((100% - 1.131rem)/2);
-}
-.model>div>div{
-    width: 6.443rem;
-    height: 1.536rem;
-    line-height: 1.536rem;
-    /*margin: 0 auto;*/
-    position: absolute;
-    top: 13rem;
-    left: calc((100% - 6.443rem)/2);
-    background: url("../../../statics/images/users/btn.png") no-repeat 0 0;
-    background-size: 100%;
-    text-align: center;
-    font-size: 0.64rem;
-    color: #993300;
-}
 #shareBox{
     /*width: 16rem;*/
     margin-top: 0.427rem;
@@ -216,4 +173,135 @@ body{
 }
 #wrapper{
     overflow: auto;
+}
+.model{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0,0,0,.4);
+    z-index: 99999999999;
+}
+.model>div{
+    width: 65%;
+    height: 5rem;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 0.4rem;
+}
+.model>div>div{
+    height: 2.5rem;
+    width: 70%;
+
+}
+.model>div>div:nth-of-type(1){
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 1rem;
+}
+
+.model>div>div:nth-of-type(2){
+    /*text-align: center;*/
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+}
+.model>div>div:nth-of-type(1)>div{
+    width: 100%;
+    height: 1.5rem;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+}
+.model>div>div:nth-of-type(1)>div>input{
+    border: none;
+    background: #fff;
+    font-size: 0.5rem;
+    text-align: center;
+}
+
+.model>div>div:nth-of-type(2)>a{
+    display: block;
+    /*width: 2rem;*/
+    height: 1.2rem;
+    color: #333;
+    text-align: center;
+    line-height: 1.2rem;
+    font-size: 0.5rem;
+    border-radius: 5px;
+    padding: 0 1rem;
+    position: absolute;
+    border: 1px solid #e5e5e5;
+    top: 0.55rem;
+}
+
+.model_tel>div{
+    height: 8rem;
+}
+.model>div>div:nth-of-type(2){
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 0.77rem;
+}
+
+.model>div>div:nth-of-type(3){
+    /*text-align: center;*/
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+}
+.model>div>div:nth-of-type(2)>div{
+    width: 100%;
+    height: 1.5rem;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+}
+.model>div>div:nth-of-type(2)>div>input{
+    border: none;
+    background: #fff;
+    font-size: 0.5rem;
+    text-align: center;
+}
+
+.model>div>div:nth-of-type(3)>a{
+    display: block;
+    /*width: 2rem;*/
+    height: 1.2rem;
+    color: #333;
+    text-align: center;
+    line-height: 1.2rem;
+    font-size: 0.5rem;
+    border-radius: 5px;
+    padding: 0 1rem;
+    position: absolute;
+    border: 1px solid #e5e5e5;
+    top: 0.55rem;
+}
+.model_tel{
+    display: none;
+}
+.model_name{
+    display: none;
+}
+.model_tel>div>div:nth-of-type(2)>div{
+    display: flex;
+    overflow: hidden;
+}
+.model_tel>div>div:nth-of-type(2)>div>a{
+    font-size: 0.433rem;
+    flex-grow: 1;
+    background: #00BFFE;
+    line-height: 1.5rem;
+    text-align: center;
+    color: #fff;
+}
+
+.model_tel>div>div:nth-of-type(2)>div>input{
+    width: 70%;
 }

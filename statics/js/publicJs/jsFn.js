@@ -43,7 +43,9 @@ function myAlert(txt) {
         'padding: 0 1rem;' +
         'position: absolute;' +
         'bottom: 4rem;' +
-        'color: #fff;border-radius:5px;' +
+        'color: #fff;' +
+        'border-radius:5px;' +
+        'z-index: 999999999999999999;' +
         ' ">' + txt + '</div>');
     $('body').append($div);
     $l = $(window).width() - $div.outerWidth();

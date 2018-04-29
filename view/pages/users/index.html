@@ -32,8 +32,8 @@
                     <img style="border: 2px solid #fff;" src="../../../statics/images/users/touxiang.png" alt="">
                 </div>
                 <div class="user_detail">
-                    <p>Supper</p>
-                    <p>13027580157</p>
+                    <p id="username">Supper</p>
+                    <p id="editTel">13027580157</p>
                 </div>
             </div>
 
@@ -71,16 +71,18 @@
             </div>
         </div>
         <div class="menu">
-            <div id="edit_password">
+            <div id="edit_password" style="border-bottom: 1px solid #e5e5e5;">
                 <i class="iconfont icon-qunfengxiugaimima"></i>
                 <span>修改密码</span>
                 <i class="iconfont icon-youjiantou"></i>
             </div>
+            <!--
             <div id="xinxi" style="border-top:1px solid #e5e5e5;border-bottom: 1px solid #e5e5e5;">
                 <i class="iconfont icon-zhanghu1"></i>
                 <span>基础信息</span>
                 <i class="iconfont icon-youjiantou"></i>
             </div>
+            -->
             <div id="renzheng" style="border-bottom: 1px solid #e5e5e5;">
                 <i class="iconfont icon-shimingrenzheng"></i>
                 <span>实名认证</span>
@@ -113,9 +115,44 @@
         <p>我的</p>
     </div>
 </div>
+
+<div class="model model_tel">
+    <div>
+        <div>
+            <div>
+                <input id="tel_id" type="text" placeholder="请输入手机号">
+            </div>
+        </div>
+        <div>
+            <div>
+                <input id="yzCode" type="text" placeholder="请输入验证码"><a id="yz" href="#">验证</a>
+            </div>
+        </div>
+        <div>
+            <a id="qx_tel" style="left: 0;" href="#">取消</a>
+            <a id="ok_tel" style="right: 0;background: #f33;color: #fff;border: none;" href="#">确定</a>
+        </div>
+    </div>
+</div>
+<div class="model model_name">
+    <div>
+        <div>
+            <div>
+                <input id="name_id" type="text" placeholder="请输入用户名">
+            </div>
+        </div>
+        <div>
+            <a id="qx_name" style="left: 0;" href="#">取消</a>
+            <a id="ok_name" style="right: 0;background: #f33;color: #fff;border: none;" href="#">确定</a>
+        </div>
+    </div>
+</div>
+
 </body>
 <script>
     $(function () {
+
+        var times,s = 60;
 
         $("#workBench").on('click', function () {
             window.location.href = '../workBench/index.html';
@@ -156,7 +193,7 @@
 
         //修改密码
         $('#edit_password').on('click', function () {
-            window.location.href = '../../forget/editPass.html';
+            window.location.href = '../../forget/forget.html';
         });
         //基础信息
         $('#xinxi').on('click', function () {
@@ -169,8 +206,71 @@
         });
         //修改手机号
         $('#edit_tel').on('click', function () {
-            myAlert('修改手机号');
+            $('.model_tel').show();
 
+        });
+        $('#qx_tel').on('click',function () {
+            $('.model_tel').hide();
+        });
+        $('#ok_tel').on('click',function () {
+            var $tel = $('#tel_id').val();
+            var $yzCode = $('#yzCode').val();
+
+            if($tel && $yzCode){
+
+                $('#editTel').html($tel);
+                $('.model_tel').hide();
+                $.ajax({
+                    url:'',
+                    type:'post',
+                    dataType:'json',
+                    data:{},
+                    success:function (data) {
+                        console.log(data)
+                    },
+                    error:function (err) {
+                        console.log(err)
+                    }
+                })
+
+
+            }else {
+                myAlert('请填写完整后在进行提交！');
+            }
+        });
+
+        //验证
+        $('#yz').on('click',function () {
+            time();
+        });
+
+        //修改用户名
+        $('#username').on('click',function () {
+            $('.model_name').show();
+        });
+        $('#qx_name').on('click',function () {
+            $('.model_name').hide();
+        });
+        $('#ok_name').on('click',function () {
+            var $name = $('#name_id').val();
+            if($name){
+                $('#username').html($name);
+                $.ajax({
+                    url:'',
+                    type:'post',
+                    dataType:'json',
+                    data:{},
+                    success:function (data) {
+                        console.log(data);
+                    },
+                    error:function (err) {
+                        console.log(err);
+                    }
+                });
+                $('.model_name').hide();
+            }else {
+                myAlert('用户名不能为空！')
+            }
         });
 
         //分享居中
@@ -178,6 +278,22 @@
             'padding-top': ($('#shareBox').outerHeight() - $('#wx>img').outerHeight() - $('#wx>p').outerHeight()) / 2,
         });
 
+        function time() {
+            clearInterval(times);
+            times = setInterval(t, 1000);
+        }
+
+        function t() {
+
+            if (s < 1) {
+                $('#yz').html('验证');
+                s = 60;
+                clearInterval(times);
+                return;
+            }
+            s -= 1;
+            $('#yz').html(s);
+        }
 
     });
 </script>
