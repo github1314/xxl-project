@@ -2,7 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73d60791-b365-41df-8d5c-676fa8403f31" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/view/pages/workBench/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/pages/workBench/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/pages/workBench/sonPages/business.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/pages/workBench/sonPages/business.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/pages/workBench/sonPages/commodityInformation.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/pages/workBench/sonPages/commodityInformation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/pages/workBench/sonPages/course.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/pages/workBench/sonPages/course.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/pages/workBench/sonPages/customerInventory.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/pages/workBench/sonPages/customerInventory.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/pages/workBench/sonPages/customerManagement.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/pages/workBench/sonPages/customerManagement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/pages/workBench/sonPages/customerVisit.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/pages/workBench/sonPages/customerVisit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/pages/workBench/sonPages/goodsWarehousing.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/pages/workBench/sonPages/goodsWarehousing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/pages/workBench/sonPages/inventoryInventory.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/pages/workBench/sonPages/inventoryInventory.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/pages/workBench/sonPages/inventoryQuery.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/pages/workBench/sonPages/inventoryQuery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/pages/workBench/sonPages/mailList.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/pages/workBench/sonPages/mailList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/pages/workBench/sonPages/more.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/pages/workBench/sonPages/more.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/pages/workBench/sonPages/myShop.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/pages/workBench/sonPages/myShop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/pages/workBench/sonPages/noticeBulletin.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/pages/workBench/sonPages/noticeBulletin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/pages/workBench/sonPages/orderManagement.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/pages/workBench/sonPages/orderManagement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/pages/workBench/sonPages/registrationOfReceipts.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/pages/workBench/sonPages/registrationOfReceipts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/pages/workBench/sonPages/salesRefund.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/pages/workBench/sonPages/salesRefund.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/pages/workBench/sonPages/timeCard.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/pages/workBench/sonPages/timeCard.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,8 +35,8 @@
       <file leaf-file-name="inventoryInventory.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/pages/workBench/sonPages/inventoryInventory.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+            <state relative-caret-position="391">
+              <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -28,8 +44,8 @@
       <file leaf-file-name="inventoryQuery.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/pages/workBench/sonPages/inventoryQuery.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+            <state relative-caret-position="391">
+              <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -37,8 +53,8 @@
       <file leaf-file-name="mailList.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/pages/workBench/sonPages/mailList.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+            <state relative-caret-position="391">
+              <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -46,8 +62,8 @@
       <file leaf-file-name="more.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/pages/workBench/sonPages/more.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+            <state relative-caret-position="391">
+              <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -55,44 +71,8 @@
       <file leaf-file-name="myShop.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/pages/workBench/sonPages/myShop.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="orderManagement.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/pages/workBench/sonPages/orderManagement.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="registrationOfReceipts.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/pages/workBench/sonPages/registrationOfReceipts.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="salesRefund.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/pages/workBench/sonPages/salesRefund.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="timeCard.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/view/pages/workBench/sonPages/timeCard.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="391">
+              <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -100,8 +80,44 @@
       <file leaf-file-name="noticeBulletin.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/pages/workBench/sonPages/noticeBulletin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+            <state relative-caret-position="391">
+              <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="orderManagement.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/pages/workBench/sonPages/orderManagement.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="registrationOfReceipts.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/pages/workBench/sonPages/registrationOfReceipts.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="salesRefund.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/pages/workBench/sonPages/salesRefund.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="timeCard.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/view/pages/workBench/sonPages/timeCard.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -375,7 +391,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26343000" />
+    <option name="totallyTimeSpent" value="26596000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
@@ -675,129 +691,129 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/pages/workBench/sonPages/business.html">
+    <entry file="file://$PROJECT_DIR$/view/pages/workBench/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="37" selection-end-column="9" />
+        <state relative-caret-position="619">
+          <caret line="229" column="10" lean-forward="true" selection-start-line="229" selection-start-column="10" selection-end-line="229" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/pages/workBench/index.html">
+    <entry file="file://$PROJECT_DIR$/view/pages/workBench/sonPages/business.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="221" column="10" selection-start-line="221" selection-start-column="6" selection-end-line="221" selection-end-column="10" />
+        <state relative-caret-position="323">
+          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/pages/workBench/sonPages/commodityInformation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        <state relative-caret-position="357">
+          <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/pages/workBench/sonPages/course.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        <state relative-caret-position="391">
+          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/pages/workBench/sonPages/customerInventory.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        <state relative-caret-position="391">
+          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/pages/workBench/sonPages/customerManagement.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        <state relative-caret-position="391">
+          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/pages/workBench/sonPages/customerVisit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        <state relative-caret-position="391">
+          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/pages/workBench/sonPages/goodsWarehousing.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        <state relative-caret-position="391">
+          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/pages/workBench/sonPages/inventoryInventory.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        <state relative-caret-position="391">
+          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/pages/workBench/sonPages/inventoryQuery.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        <state relative-caret-position="391">
+          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/pages/workBench/sonPages/mailList.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        <state relative-caret-position="391">
+          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/pages/workBench/sonPages/more.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        <state relative-caret-position="391">
+          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/pages/workBench/sonPages/myShop.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        <state relative-caret-position="391">
+          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/pages/workBench/sonPages/noticeBulletin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        <state relative-caret-position="391">
+          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/pages/workBench/sonPages/orderManagement.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        <state relative-caret-position="391">
+          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/pages/workBench/sonPages/registrationOfReceipts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        <state relative-caret-position="391">
+          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/pages/workBench/sonPages/salesRefund.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        <state relative-caret-position="391">
+          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/pages/workBench/sonPages/timeCard.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="459">
+          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
         </state>
       </provider>
     </entry>
